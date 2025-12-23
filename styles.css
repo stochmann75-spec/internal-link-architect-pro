@@ -168,8 +168,8 @@ p {
    ============================================ */
 .hero {
   text-align: center;
-  padding: var(--spacing-2xl) var(--spacing-lg);
-  margin-bottom: var(--spacing-xl);
+  padding: var(--spacing-2xl) var(--spacing-lg) var(--spacing-md);
+  margin-bottom: var(--spacing-md);
 }
 
 .hero h1 {

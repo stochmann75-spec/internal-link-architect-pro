@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Internal Link Architect PRO - Automated SEO Link Injection</title>
-    <meta name="description" content="Automatically inject semantically relevant internal links into your blog posts to maximize SEO and user engagement.">
+    <meta name="description"
+        content="Automatically inject semantically relevant internal links into your blog posts to maximize SEO and user engagement.">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <div class="hero-badge">✨ Powered by AI-Driven Relevance Matching</div>
+            <div class="hero-badges">
+                <div class="hero-badge">✨ Powered by AI-Driven Relevance Matching</div>
+                <div class="hero-badge badge-beta">BETA</div>
+            </div>
             <h1>Internal Link<br>Architect PRO</h1>
-            <p>Automatically inject semantically relevant internal links into your blog posts to maximize SEO value and user engagement.</p>
+            <p>Automatically inject semantically relevant internal links into your blog posts to maximize SEO value and
+                user engagement.</p>
         </div>
     </section>
 
@@ -27,13 +34,8 @@
                     <label for="sitemapUrl">
                         🗺️ Sitemap XML URL
                     </label>
-                    <input 
-                        type="url" 
-                        id="sitemapUrl" 
-                        name="sitemapUrl" 
-                        placeholder="https://example.com/sitemap.xml"
-                        required
-                    >
+                    <input type="url" id="sitemapUrl" name="sitemapUrl" placeholder="https://example.com/sitemap.xml"
+                        required>
                     <small style="color: var(--text-muted); font-size: 0.875rem; display: block; margin-top: 0.5rem;">
                         Enter the full URL to your XML sitemap
                     </small>
@@ -44,13 +46,8 @@
                     <label for="blogUrl">
                         📝 Target Blog Post URL
                     </label>
-                    <input 
-                        type="url" 
-                        id="blogUrl" 
-                        name="blogUrl" 
-                        placeholder="https://example.com/blog/your-article"
-                        required
-                    >
+                    <input type="url" id="blogUrl" name="blogUrl" placeholder="https://example.com/blog/your-article"
+                        required>
                     <small style="color: var(--text-muted); font-size: 0.875rem; display: block; margin-top: 0.5rem;">
                         The blog post where you want to inject internal links
                     </small>
@@ -63,14 +60,7 @@
                     </label>
                     <div class="slider-container">
                         <div class="slider-wrapper">
-                            <input 
-                                type="range" 
-                                id="numLinks" 
-                                name="numLinks" 
-                                min="1" 
-                                max="20" 
-                                value="5"
-                            >
+                            <input type="range" id="numLinks" name="numLinks" min="1" max="20" value="5">
                             <span class="slider-value" id="sliderValue">5</span>
                         </div>
                     </div>
@@ -137,7 +127,7 @@
             <div class="footer-content">
                 <p>Built with ❤️ for SEO professionals and content creators</p>
                 <div class="footer-meta">
-                    <span>© 2025 Internal Link Architect PRO</span>
+                    <span>© 2025 Internal Link Architect PRO <span class="beta-text">(Beta)</span></span>
                     <span class="footer-divider">|</span>
                     <a href="https://stephanochmann.de/" target="_blank" rel="noopener">stephanochmann.de</a>
                 </div>
@@ -147,4 +137,5 @@
 
     <script src="app.js"></script>
 </body>
+
 </html>

@@ -163,13 +163,17 @@ p {
   z-index: 1;
 }
 
+main.container {
+  padding-top: 0;
+}
+
 /* ============================================
    Hero Section
    ============================================ */
 .hero {
   text-align: center;
-  padding: var(--spacing-2xl) var(--spacing-lg) var(--spacing-md);
-  margin-bottom: var(--spacing-md);
+  padding: var(--spacing-2xl) var(--spacing-lg) 0;
+  margin-bottom: 0;
 }
 
 .hero h1 {

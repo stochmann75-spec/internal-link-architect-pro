@@ -11,13 +11,13 @@
   --bg: #0A0A0A;
   --surface: #141414;
   --surface-hover: #1C1C1C;
-  --accent: #00E5FF;
-  --accent-muted: rgba(0, 229, 255, 0.1);
+  --accent: #6366F1;
+  --accent-muted: rgba(99, 102, 241, 0.1);
   --border: #262626;
   --text: #FAFAFA;
   --text-muted: #A1A1AA;
   --error: #FF4B4B;
-  --success: #00E676;
+  --success: #10B981;
 
   /* Spacing Grid (8px) */
   --space-1: 8px;
@@ -194,7 +194,7 @@ input[type="range"]::-webkit-slider-thumb {
   background: var(--accent);
   border-radius: 50%;
   cursor: pointer;
-  box-shadow: 0 0 10px rgba(0, 229, 255, 0.4);
+  box-shadow: 0 0 12px rgba(99, 102, 241, 0.4);
   transition: transform 0.15s ease;
 }
 
@@ -222,7 +222,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
 
 .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(0, 229, 255, 0.3);
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.3);
   filter: brightness(1.1);
 }
 
